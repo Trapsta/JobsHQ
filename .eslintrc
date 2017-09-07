@@ -9,6 +9,7 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-console": "off",
-    "import/extensions": ["off", "never"]
+    "import/extensions": ["off", "never"],
+    "comma-dangle": ["error", "always", { "functions": "never" }]
   }
 }
