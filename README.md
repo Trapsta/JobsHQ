@@ -1,4 +1,4 @@
-# A React SPA boilerplate for Heroku [![Build Status](https://travis-ci.org/Tinitto/hapi-react-spa.svg)](https://travis-ci.org/Tinitto/hapi-react-spa)
+# A React SPA boilerplate for Heroku [![Build Status](https://travis-ci.org/Tinitto/heroku-react-deploy.svg)](https://travis-ci.org/Tinitto/heroku-react-deploy)
 A Single Page Reactjs Application boilerplate served by Hapijs and the inert plugin on the local. 
 
 It however is served directly by Nginx on [Heroku](https://www.heroku.com/).
