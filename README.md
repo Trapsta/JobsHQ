@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # react-style-boilerplate [![Build Status](https://travis-ci.org/Tinitto/react-style-boilerplate.svg?branch=master)](https://travis-ci.org/Tinitto/react-style-boilerplate)
 This is a boiler plate for styling Reactjs apps for developers using Visual Studio Code.
 The react app is created using the [create-react-app](https://github.com/facebookincubator/create-react-app) developer CLI tool.
@@ -61,3 +62,7 @@ The react app is created using the [create-react-app](https://github.com/faceboo
 The styling of this boilerplate is based on the [nice tutorial](https://github.com/Tinitto/react-style-boilerplate.git) by Sean Groff.
 
 It is also based on the [style rules by Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#eslint-config-airbnb-1).
+=======
+# hapi-react-spa
+A Single Page Reactjs Application served by Hapijs and the inert plugin
+>>>>>>> f180b5f34e596dfbb33ce9628c62dc5ab2a55b04
