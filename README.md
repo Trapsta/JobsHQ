@@ -3,8 +3,9 @@ This is a boiler plate for styling Reactjs apps for developers using Visual Stud
 The react app is created using the [create-react-app](https://github.com/facebookincubator/create-react-app) developer CLI tool.
 
 # Features
-1. Styling guide reinforcement by ESlint based on Airbnb Eslint style guide
-2. Automattic formatting of JavaScript code by Prettier on saving a ```.js``` file
+1. Styling guide reinforcement by [ESlint](https://eslint.org/) based on [Airbnb Eslint style guide](https://github.com/airbnb/javascript)
+2. Automattic formatting of JavaScript code by Prettier on saving a ```.js``` or ```.json``` file
+3. Automattic JavaScript static type checking by [flow](https://flow.org/). Started by running the command ``` npm run flow start ```
 
 # Instructions
 **Note: This boilerplate is for developers using Visual Studio Code. It has only been tested on Linux**
@@ -15,6 +16,13 @@ The react app is created using the [create-react-app](https://github.com/faceboo
     - Flow Language Support
     - Babel ES6/ES7
 3. Click on the view menu item in the menu bar of VS code and select 'Integrated Terminal' in dropdown to open it.
+4. To start the flow static type checker server, run ``` npm run flow start ```.
+    
+    Some other terminal commands for flow are
+    - ``` npm run flow stop ``` to stop the flow server
+    - ``` npm run flow status ``` to check the flow status
+    - ``` npm run flow coverage ``` to check the flow coverage percentage
+5. To have a file checked by the flow server, add ``` // @flow``` at the top of it.
 
 
 
