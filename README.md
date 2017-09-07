@@ -1,5 +1,5 @@
 # hapi-react-spa [![Build Status](https://travis-ci.org/Tinitto/hapi-react-spa.svg)](https://travis-ci.org/Tinitto/hapi-react-spa)
-A Single Page Reactjs Application served by Hapijs and the inert plugin
+A Single Page Reactjs Application boilerplate served by Hapijs and the inert plugin. Deploy Reactjs apps easily to [Heroku](https://www.heroku.com/) or any such hosting.
 
 # Major Dependencies
 1. [Hapi](https://hapijs.com/) +16.5.2
@@ -11,7 +11,7 @@ _Other dependencies can be found in the package.json_
 # Justification
 After attempting, in vain, to deploy my build of the react app I had created with create-react-app, I resorted to write this boilerplate. 
 
-This boilerplate is meant to help anyone who would want to host their React app using Nodejs on Heroku or anyother such hosting service.
+This boilerplate is meant to help anyone who would want to host their React app using Nodejs on [Heroku](https://www.heroku.com/) or anyother such hosting service.
 
 # Composition
 This is just a basic React app that is being served using Hapi's inert plugin.
