@@ -7,6 +7,12 @@ The react app is created using the [create-react-app](https://github.com/faceboo
 2. Automattic formatting of JavaScript code by Prettier on saving a ```.js``` or ```.json``` file
 3. Automattic JavaScript static type checking by [flow](https://flow.org/). Started by running the command ``` npm run flow start ```
 
+# Prerquisites
+1. [Node (and npm)](https://nodejs.org/en/download/)
+2. Linux OS (but this might work with also Windows and OSX though this is not yet tested)
+3. [Visual Studio Code](https://code.visualstudio.com/Download)
+4. [git](https://git-scm.com/downloads)
+
 # Instructions
 **Note: This boilerplate is for developers using Visual Studio Code. It has only been tested on Linux**
 1. Install [Visual Code (VS code)](https://code.visualstudio.com/download) if you haven't already
@@ -50,8 +56,6 @@ The react app is created using the [create-react-app](https://github.com/faceboo
     As you type, ESlint will warn you of style mistakes.
     
     On saving, flow will throw an error if you try to do anything crazy that JavaScript would frown at.
-
-
 
 # Acknowledgements
 The styling of this boilerplate is based on the [nice tutorial](https://github.com/Tinitto/react-style-boilerplate.git) by Sean Groff.

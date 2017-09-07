@@ -1,0 +1,13 @@
+engines: 
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc
+      extensions:
+      - .js
+      - .jsx
+    
+ratings:
+   paths:
+   - "**.js"
+   - "**.jsx"
