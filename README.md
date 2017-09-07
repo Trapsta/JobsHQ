@@ -2,6 +2,10 @@
 This is a boiler plate for styling Reactjs apps for developers using Visual Studio Code.
 The react app is created using the [create-react-app](https://github.com/facebookincubator/create-react-app) developer CLI tool.
 
+# Features
+1. Styling guide reinforcement by ESlint based on Airbnb Eslint style guide
+2. Automattic formatting of JavaScript code by Prettier on saving a ```.js``` file
+
 # Instructions
 **Note: This boilerplate is for developers using Visual Studio Code. It has only been tested on Linux**
 1. Install [Visual Code (VS code)](https://code.visualstudio.com/download) if you haven't already
