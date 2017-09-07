@@ -12,7 +12,7 @@ const server = new Hapi.Server({
     },
   },
 });
-server.connection({ port: process.env.PORT || 3000, host: process.env.HOST || 'localhost' });
+server.connection({ /* port: process.env.PORT || 3000, */ host: process.env.HOST || 'localhost' });
 
 // Register the inert plugin
 server.register(Inert, (err) => {
