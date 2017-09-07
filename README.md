@@ -1,6 +1,9 @@
 # hapi-react-spa [![Build Status](https://travis-ci.org/Tinitto/hapi-react-spa.svg)](https://travis-ci.org/Tinitto/hapi-react-spa)
 A Single Page Reactjs Application boilerplate served by Hapijs and the inert plugin. Deploy Reactjs apps easily to [Heroku](https://www.heroku.com/) or any such hosting.
 
+# Demo
+A demo of the app can be found on this [Heroku app](https://hapi-react-spa.herokuapp.com/).
+
 # Major Dependencies
 1. [Hapi](https://hapijs.com/) +16.5.2
 2. [React](https://facebook.github.io/react/) +15.6.1
