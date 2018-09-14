@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 6 44 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: QuicksandDash-Regular, Quicksand Dash;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Logo" transform="translate(29 142)">
+    <text id="HQ" class="cls-1" transform="translate(12 -114)"><tspan x="0" y="0">HQ</tspan></text>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(5 -136)">
+      <rect class="cls-3" width="44" height="32"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="43" height="31"/>
+    </g>
+  </g>
+</svg>

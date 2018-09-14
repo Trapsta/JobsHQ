@@ -14,6 +14,10 @@
   color: white;
 }
 
+.App-title {
+  font-size: 1.5em;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -21,4 +25,142 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.main-content {
+  max-width: 1920px;
+  padding: 0;
+}
+header {
+    position: relative;
+    z-index: 7;
+    min-height: 40px;
+    background: #273a4b;
+    padding:  15px 15px;
+    padding-left: 40px;
+}
+header .app-logo {
+    position: relative;
+    display: inline-block;
+    max-width: 105px;
+    color: #fff;
+    opacity: 1;
+    float: left;
+    width: 64px;
+    margin-right: 15px;
+}
+header h1 {
+  font-size: 24px;
+  float: left;
+  padding-top: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+.navbar {
+  float: right;
+  margin: 0;
+  list-style: none;
+  list-style-position:inside;
+}
+.navbar li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0 15px;
+}
+.navbar li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.22em;
+    border: 0;
+    font-weight: 400;
+    background: transparent;
+    cursor: pointer;
+}
+.jobs-board {
+  padding: 40px 0 20px 40px;
+  background-color: #fff;
+  min-height: 670px;
+}
+.all-jobs-list {
+  counter-reset: my-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+.job-card-list-item {
+  position: relative;
+  margin: 0 0 3.5rem 0;
+  counter-increment: my-counter;
+}
+
+.job-card-list-item::before  {
+  content: counter(my-counter);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  transform: rotate(-10deg);
+  background: #273a4b;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 0 #999;
+}
+
+.job-link {
+  color: #0C0D0E; 
+  text-decoration: none;
+}
+
+.job-link {
+  margin-bottom: 3px;
+  color: #07C;
+  font-weight: 400;
+}
+.job-card h3 {
+  font-size: 1.66em;
+  margin-bottom: 0;
+}
+.job-title span {
+  font-weight: 400;
+  color: #273a4b;
+}
+.job-details span {
+  color: #273a4b;
+}
+.job-meta {
+  color: #273a4b;
+}
+.job-details i {
+  color: #828282;
+  font-style: normal;
+  font-weight: 400;
+}
+.job-action .lnr {
+  cursor: pointer;
+}
+
+
+
+footer {
+  position: relative;
+  min-height: 20px;
+  background: #273a4b;
+  padding:  15px 15px;
+  padding-left: 40px;
+  color: #fff;
+}
+footer p {
+  float: right;
+}
+footer p span {
+  font-weight: bold;
 }
