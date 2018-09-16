@@ -147,7 +147,23 @@ header h1 {
 .job-action .lnr {
   cursor: pointer;
 }
-
+.apply-link {
+  text-decoration: none;
+  color: #273a4b;
+}
+.apply-link:hover {
+  color: #1EAEDB;
+}
+.job-card-list-item form {
+  display: none;
+}
+/*[id="0"] #email-form {
+  display: block;
+}
+*/
+.activeForm {
+  display: block !important;
+}
 
 
 footer {
@@ -164,3 +180,4 @@ footer p {
 footer p span {
   font-weight: bold;
 }
+

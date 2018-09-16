@@ -2,6 +2,7 @@ import React from 'react';
 import * as iHub from './ihubList.json';
 import * as LinkedIn from './linkedin.json';
 import * as Fuzu from './fuzuList.json';
+import Emailer from './emails/emailer';
 
 
 const allJobs = [].concat(iHub, Fuzu, LinkedIn);
@@ -22,6 +23,7 @@ class Jobs extends React.Component {
     this.filterInterns = this.filterInterns.bind(this);
     this.showOthers = this.showOthers.bind(this);
     this.HandleLikeJob = this.HandleLikeJob.bind(this);
+    this.handleEmailJob = this.handleEmailJob.bind(this);
   }
 
 
@@ -119,26 +121,47 @@ HandleLikeJob = (e, prevState) => {
 }
 
 
+handleEmailJob(e) {
+
+  var itemId = e.currentTarget.id;
+  //console.log(itemId);
+  const form = "form" + itemId;
+  //console.log(form);
+
+
+  document.getElementById(form).setAttribute("class", "activeForm");
+
+
+  //form.classList.add('activeForm');
+  //console.log(form);
+
+  //styleTag = '[id="' + itemId + '0"] #email-form { display: block; }';
+
+  //console.log(styleTag);
+  //this.form1.setAttribute.setAttribute("class", "activeForm");
+  //document.getElementById("form1").setAttribute.setAttribute("class", "activeForm");
+
+
+}
+
+
 
 
 
   render() {
 
-
-
-    
-
     const joblist = this.state.jobs.map((job, keyIndex) =>
       
-        <li key={keyIndex} className="job-card-list-item">
+        <li id={keyIndex} key={keyIndex} className="job-card-list-item">
           <div className="job-card">          
             <div className="job-title">
                 <h3 className="job-title"><a className="job-link" href={job["url"]} target="_blank">{job["jobTitle"]}</a> <span>  at {job["company2"] === undefined ? job["company"] : job["company2"] } </span></h3>
             </div>
             <div className="job-meta">
-              <span className="job-action"> <span data-id={keyIndex} className="lnr lnr-thumbs-up" onClick={this.HandleLikeJob} ></span> <span className="likes-count">{job["jobLikes"] === 0 ? " No Likes" : job["jobLikes"] === 1 ?  job["jobLikes"] + " Like" : job["jobLikes"] + " Likes"} </span> | <span className="lnr lnr-envelope"></span> Email Job </span> |
+              <span className="job-action"> <span data-id={keyIndex} className="lnr lnr-thumbs-up" onClick={this.HandleLikeJob} ></span> <span className="likes-count">{job["jobLikes"] === 0 ? " No Likes" : job["jobLikes"] === 1 ?  job["jobLikes"] + " Like" : job["jobLikes"] + " Likes"} </span> | <span id={keyIndex} onClick={this.handleEmailJob}><span className="lnr lnr-envelope"></span> Email Job </span></span> |
               <span className="job-source">By {job["source"]} </span> |
-              <span className="job-stamp"> Added {job["date"]} </span>
+              <span className="job-stamp"> Added {job["date"]} </span> | <a className="apply-link" href={job["url"]} target="_blank">Apply Job</a>
+              <Emailer id={keyIndex} className="hidden" jobTitle={job["jobTitle"]} company={job["company2"] === undefined ? job["company"] : job["company2"] }  senderID="Jasper" jobDetails="N/A" jobLink={job["url"]} />
             </div>
           </div>          
         </li>
@@ -146,14 +169,14 @@ HandleLikeJob = (e, prevState) => {
 
     return(
 
-      
+        
         <section id="jobs-board" className="jobs-board">
             <div className="row">
               <ol className="all-jobs-list">
                 {joblist}
               </ol> 
             </div>
-        </section>
+        </section>        
       );
   }
 }
