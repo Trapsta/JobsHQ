@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import * as iHub from './ihubList.json';
 import * as LinkedIn from './linkedin.json';
 import * as Fuzu from './fuzuList.json';
@@ -124,23 +124,10 @@ HandleLikeJob = (e, prevState) => {
 handleEmailJob(e) {
 
   var itemId = e.currentTarget.id;
-  //console.log(itemId);
   const form = "form" + itemId;
-  //console.log(form);
 
 
   document.getElementById(form).setAttribute("class", "activeForm");
-
-
-  //form.classList.add('activeForm');
-  //console.log(form);
-
-  //styleTag = '[id="' + itemId + '0"] #email-form { display: block; }';
-
-  //console.log(styleTag);
-  //this.form1.setAttribute.setAttribute("class", "activeForm");
-  //document.getElementById("form1").setAttribute.setAttribute("class", "activeForm");
-
 
 }
 

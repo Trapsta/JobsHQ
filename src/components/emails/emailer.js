@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+import cheerio from 'cheerio';
+import fs from 'fs';
 
 class Emailer extends Component {
 
@@ -11,24 +14,33 @@ class Emailer extends Component {
 
 	handleSubmit (event) {
 	    event.preventDefault();
+
+
 	    const jobTitle = this.props.jobTitle;
 	    const company = this.props.company;
-	    const senderID = this.props.senderID;
+	    //const senderID = this.props.senderID;
 	    const jobDetails = this.props.jobDetails;
 	    const jobLink = this.props.jobLink;
+	    const senderEmail = this.refs.email.value;
+	   
 
-	    this.sendEmail("sendgrid", "jhq", jobTitle, company, senderID, jobDetails, jobLink);
+	    const senderID = senderEmail.substr(0, senderEmail.indexOf('@')); 
+	    //console.log(senderID);
+	    //console.log(process.env.REACT_APP_EMAILJS_USERID);
+	    this.sendEmail("sendgrid", "jhq", jobTitle, company, senderID, jobDetails, jobLink, senderEmail);
 
 	    this.setState({
 	      formSubmitted: true
 	    })
-	  }
 
-	  sendEmail (serviceID, templateID, jobTitle, company, senderID, jobDetails, jobLink) {
+	    var form = "form" + this.props.id;
+	    //console.log(form);
+	    document.getElementById(form).setAttribute("class", "email-form");
+	}
 
-	  	const {
-	      REACT_APP_EMAILJS_USERID: user_id,
-	    } = this.process.env
+	  sendEmail (serviceID, templateID, jobTitle, company, senderID, jobDetails, jobLink, senderEmail) {
+
+	  	const user_id = process.env.REACT_APP_EMAILJS_USERID;
 
 	    window.emailjs.send(
 	      serviceID,
@@ -38,7 +50,8 @@ class Emailer extends Component {
 	        company,
 	        senderID,
 	        jobDetails,
-	        jobLink
+	        jobLink,
+	        senderEmail
 	      },
 	      user_id)
 	      .then(res => {
@@ -50,7 +63,7 @@ class Emailer extends Component {
 
 	  handleCloseForm(e) {
 	  	var form = "form" + e.currentTarget.id;
-	  	console.log(form);
+	  	//console.log(form);
 	  	document.getElementById(form).setAttribute("class", "email-form");
 	  }
 
@@ -60,13 +73,12 @@ class Emailer extends Component {
 		return(
 			<form id={formId} ref={formId} onSubmit={this.handleSubmit} className="email-form">			    
 			    <div className="form-group">
-			        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email address" />
+				    <input type="email" ref="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email address"  />
+				    <button type="submit" className="btn btn-primary">Submit</button>
+				    <button id={this.props.id} className="btn btn--cancel" onClick={this.handleCloseForm}>
+			          Cancel
+			        </button>
 			    </div>
-			   
-			    <button type="submit" className="btn btn-primary">Submit</button>
-			    <button id={this.props.id} className="btn btn--cancel" onClick={this.handleCloseForm}>
-		          Cancel
-		        </button>
 			</form>
 			);
 	}
