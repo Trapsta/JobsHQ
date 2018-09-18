@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import cheerio from 'cheerio';
-import fs from 'fs';
+// import fs from 'fs';
+
+//var jobDetails ="Sorry, Job description is not available. Please use the link below to learn more about this role."
 
 class Emailer extends Component {
 
@@ -10,6 +12,7 @@ class Emailer extends Component {
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.sendEmail = this.sendEmail.bind(this);
 		this.handleCloseForm = this.handleCloseForm.bind(this);
+		this.getJD = this.getJD.bind(this);
 	}
 
 	handleSubmit (event) {
@@ -18,27 +21,61 @@ class Emailer extends Component {
 
 	    const jobTitle = this.props.jobTitle;
 	    const company = this.props.company;
-	    //const senderID = this.props.senderID;
-	    const jobDetails = this.props.jobDetails;
 	    const jobLink = this.props.jobLink;
-	    const senderEmail = this.refs.email.value;
-	   
 
+	    //const jobDetails = this.getJD(jobLink);
+	    
+	    //console.log(jobDetails);
+	    const senderEmail = this.refs.email.value;
 	    const senderID = senderEmail.substr(0, senderEmail.indexOf('@')); 
-	    //console.log(senderID);
-	    //console.log(process.env.REACT_APP_EMAILJS_USERID);
-	    this.sendEmail("sendgrid", "jhq", jobTitle, company, senderID, jobDetails, jobLink, senderEmail);
+
+	    setTimeout(500);
+	    
+	    this.sendEmail("sendgrid", "jhq", jobTitle, company, senderID,jobLink, senderEmail);
+	    
+	    
 
 	    this.setState({
 	      formSubmitted: true
 	    })
 
 	    var form = "form" + this.props.id;
-	    //console.log(form);
+
 	    document.getElementById(form).setAttribute("class", "email-form");
 	}
 
-	  sendEmail (serviceID, templateID, jobTitle, company, senderID, jobDetails, jobLink, senderEmail) {
+	async getJD(url) {
+
+		//Get job description
+		let jd = [];
+		let jobDesc = "";
+		await axios.get(url)
+		    .then((response) => {
+		        if (response.status === 200) {
+		            const html = response.data;
+		            const $ = cheerio.load(html);
+		            
+		            $('.vacancy-description').each(function(i, elem) {
+		                jd[i] = {
+		                    description: $(this).find('p').text()
+		                }
+		            });
+		            jobDesc = jd[0]["description"];
+		        }
+		    }, (error) => console.log(error));
+
+		    //jobDetails = jobDesc;
+		    
+
+		    return jobDesc;
+
+	}
+
+	async  sendEmail (serviceID, templateID, jobTitle, company, senderID, jobLink, senderEmail) {
+	  	
+	  	const jd = await Promise.all([this.getJD(jobLink)]);
+	  	const jobDetails = jd[0];
+	  	//console.log(jobDetails);
 
 	  	const user_id = process.env.REACT_APP_EMAILJS_USERID;
 
