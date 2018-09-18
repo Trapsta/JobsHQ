@@ -49,7 +49,10 @@ class Emailer extends Component {
 		//Get job description
 		let jd = [];
 		let jobDesc = "";
-		await axios.get(url)
+
+		if (url.includes("ihub")) {
+			// console.log(url + " is a Ihub Link");
+			await axios.get(url)
 		    .then((response) => {
 		        if (response.status === 200) {
 		            const html = response.data;
@@ -63,11 +66,23 @@ class Emailer extends Component {
 		            jobDesc = jd[0]["description"];
 		        }
 		    }, (error) => console.log(error));
+		} else if (url.includes("fuzu")) {
+			// console.log(url + " is a Fuzu Link");
+			jobDesc = "Fuzu job descriptions are not available yet. Please follow the link below to view the full JD."
+		} else if (url.includes("linkedin")) {
+			// console.log(url + " is a LinkedIn Link");
+			jobDesc = "LinkedIn job descriptions are not available yet. Please follow the link below to view the full JD."
+		} else  {
+			// console.log(url + " is a unknown Link");
+			jobDesc = "This recruiter's job descriptions are not available yet. Please follow the link below to view the full JD."
+		}
 
-		    //jobDetails = jobDesc;
-		    
+		
 
-		    return jobDesc;
+	    //jobDetails = jobDesc;
+	    
+
+	    return jobDesc;
 
 	}
 
