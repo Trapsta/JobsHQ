@@ -1,5 +1,23 @@
 [
     {
+        "jobTitle": "\n\nDevOps Engineer\n\n",
+        "company": "Tulaa Technology Services ",
+        "source": "iHub",
+        "date": "19th Sep 2018",
+        "url": "https://ihub.co.ke/jobs/view/4511/devops-engineer",
+        "category": "Developer",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "\n\nSenior Developer\n\n",
+        "company": "AMPATH ",
+        "source": "iHub",
+        "date": "8th Aug 2018",
+        "url": "https://ihub.co.ke/jobs/view/4482/senior-developer",
+        "category": "Developer",
+        "jobLikes": 0
+    },
+    {
         "jobTitle": "\n\nICT Account management executive\n\n",
         "company": "Africa Incubator Kenya Ltd ",
         "source": "iHub",
@@ -72,7 +90,7 @@
         "jobLikes": 0
     },
     {
-        "jobTitle": "\n\nIOT | Fullstack Developer\n\n",
+        "jobTitle": "\n \nIOT | Fullstack Developer\n\n",
         "company": "Kaiote limited ",
         "source": "iHub",
         "date": "5th Sep 2018",
@@ -153,24 +171,6 @@
         "jobLikes": 0
     },
     {
-        "jobTitle": "\n\nSenior Developer\n\n",
-        "company": "AMPATH ",
-        "source": "iHub",
-        "date": "8th Aug 2018",
-        "url": "https://ihub.co.ke/jobs/view/4482/senior-developer",
-        "category": "Developer",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "\n\nCreative Technologist (Part Time/Full Time)\n\n",
-        "company": "MAISON INTERACTIVE ",
-        "source": "iHub",
-        "date": "3rd Aug 2018",
-        "url": "https://ihub.co.ke/jobs/view/4473/creative-technologist-part-time-full-time",
-        "category": "Technical Lead",
-        "jobLikes": 0
-    },
-    {
         "jobTitle": "\n\nQuality Assurance Engineer (m/f)\n\n",
         "company": "Finance in Motion GmbH ",
         "source": "iHub",
@@ -189,7 +189,7 @@
         "jobLikes": 0
     },
     {
-        "jobTitle": "\n\n Backend Software Engineer - FinTech\n\n",
+        "jobTitle": "\n\nBackend Software Engineer - FinTech\n\n",
         "company": "Spektra, Inc ",
         "source": "iHub",
         "date": "4th Jul 2018",

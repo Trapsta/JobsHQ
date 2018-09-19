@@ -1,47 +1,10 @@
 [
     {
-        "jobTitle": "Graphical Designer User Interface",
-        "company": "summit recruitment training",
-        "company2": "Summit Recruitment &Training  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/graphical-designer-user-interface-summit-recruitment-training-fd72059a",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Director of Product Management",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/director-of-product-management-one-acre-fund-5e93e70b",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Manager, Risk Assessments",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/manager-risk-assessments-kcb-group",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
         "jobTitle": "Database Administrator",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/database-administrator-living-goods-kenya-00e917c6",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Mobile App Manager",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/mobile-app-manager-brites-management-services-limited",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -49,8 +12,17 @@
         "jobTitle": "Computer Laboratory Assistant",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/computer-laboratory-assistant-maasai-mara-university",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Director of Product Management",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/director-of-product-management-one-acre-fund-5e93e70b",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -58,7 +30,7 @@
         "jobTitle": "Basel II & III Developer",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/basel-ii-iii-developer-kcb-group",
         "category": "IT & Software",
         "jobLikes": 0
@@ -67,17 +39,8 @@
         "jobTitle": "Information Architect",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/information-architect-kcb-group-f8b528a7",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Security Assurance Officer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/security-assurance-officer-techsavanna",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -85,7 +48,7 @@
         "jobTitle": "IT Project Manager (Ecommerce Platform)",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/it-project-manager-ecommerce-platform-avechi",
         "category": "IT & Software",
         "jobLikes": 0
@@ -94,8 +57,35 @@
         "jobTitle": "Lead Software Developer (Ecommerce Platform)",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/lead-software-developer-ecommerce-platform-avechi",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Security Assurance Officer",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/security-assurance-officer-techsavanna",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Senior Graphic Designer and Comms Specialist",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/senior-graphic-designer-and-comms-specialist-flare-0cb5698e",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Lead Mobile Dev",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/lead-mobile-dev-flare",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -103,8 +93,35 @@
         "jobTitle": "Information Technology Assistant",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/information-technology-assistant-united-nations-4b4fa9e1",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Senior Backend Javascript Software Engineer",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/senior-backend-javascript-software-engineer-flare-ef741503",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Senior Android Developer",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/senior-android-developer-flare-e8782314",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Senior React/Redux Dev with a Passion for Beautiful Design and Usability",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/senior-react-redux-dev-with-a-passion-for-beautiful-design-and-usability-flare-0fc5806e",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -112,7 +129,7 @@
         "jobTitle": "Administrator IT Security",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/administrator-it-security-kenya-airways",
         "category": "IT & Software",
         "jobLikes": 0
@@ -121,152 +138,8 @@
         "jobTitle": "Analyst IT Security",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/analyst-it-security-kenya-airways",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "INTERN - Programme Support Web Communication",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/intern-programme-support-web-communication-united-nations-1ac65bca",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Tech Internship",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/tech-internship-one-acre-fund",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Java/Applications Developer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/java-applications-developer-brites-management-services-limited",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Information Officer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/information-officer-county-of-nakuru",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Senior Software Engineer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/senior-software-engineer-living-goods-kenya-de22d9f6",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Research Intern - Data Analysis",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/research-intern-data-analysis-consumer-insight",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Data Entry Technician",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/data-entry-technician-rti-international-b5df2478",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Information Technology Internship",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/information-technology-internship-procter-and-gamble-db2a8053",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Empower Health Technical Support & Operations Associate",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/empower-health-technical-support-operations-associate-medtronic",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Network and Infrastructure ICT",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/network-and-infrastructure-ict-manpower-services-group",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Support Technician ICT",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/support-technician-ict-manpower-services-group",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Information Security Analyst",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/information-security-analyst-i-m-bank",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Information Security Engineer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/information-security-engineer-i-m-bank",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "UX Designer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/ux-designer-sendy-ltd-a2040b63",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Vice President of Engineering",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/vice-president-of-engineering-maisha-meds-606948ec",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Senior Software Engineer (Full Stack)",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/senior-software-engineer-full-stack-maisha-meds-edbaa095",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -274,8 +147,17 @@
         "jobTitle": "Alliance & Channels Intern",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/alliance-channels-intern-oracle",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "INTERN - Programme Support Web Communication",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/intern-programme-support-web-communication-united-nations-1ac65bca",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -283,7 +165,7 @@
         "jobTitle": "Records Management Officer II",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/records-management-officer-ii-office-of-the-director-of-public-prosecutions-odpp-c7faf8f6",
         "category": "IT & Software",
         "jobLikes": 0
@@ -292,8 +174,17 @@
         "jobTitle": "Information Communication Technology Officer II",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/information-communication-technology-officer-ii-office-of-the-director-of-public-prosecutions-odpp-5e27acd7",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Information Technology Internship",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/information-technology-internship-procter-and-gamble-0c7e2e0b",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -302,7 +193,7 @@
         "company": "summit recruitment training",
         "company2": "Summit Recruitment &Training  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/web-developer-summit-recruitment-training",
         "category": "IT & Software",
         "jobLikes": 0
@@ -311,7 +202,7 @@
         "jobTitle": "Vice President Product Management",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/vice-president-product-management-mastercard",
         "category": "IT & Software",
         "jobLikes": 0
@@ -320,8 +211,17 @@
         "jobTitle": "Senior Analyst, Technology Account Management",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/senior-analyst-technology-account-management-mastercard",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Engineer Manager",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/engineer-manager-tala-690937e4",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -329,7 +229,7 @@
         "jobTitle": "Chief Graphic Designer",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/chief-graphic-designer-public-service-commission-26a4d6ec",
         "category": "IT & Software",
         "jobLikes": 0
@@ -339,8 +239,17 @@
         "company": "recours four kenya consultants limited",
         "company2": "Recours Four Kenya Consultants Limited  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/system-administrator-recours-four-kenya-consultants-limited",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Senior IT Support Officer",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/senior-it-support-officer-crystal-recruit",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -348,8 +257,89 @@
         "jobTitle": "Programme Officer, Ict For Trade And Transport Facilitation",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/programme-officer-ict-for-trade-and-transport-facilitation-trade-mark-east-africa",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Information Security",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/information-security-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "IT Suppoprt Operations",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/it-suppoprt-operations-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Digital Banking Officers",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/digital-banking-officers-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Data Base Administrator",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/data-base-administrator-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Systems Engineer",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/systems-engineer-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Project Manager",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/project-manager-prime-bank",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "RAN Engineers",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/ran-engineers-viscar-industrial-capacity-ltd",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Web Developer Internship",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/web-developer-internship-greenbell-communications-limited",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Search Engine Optimization (SEO) Lead",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/search-engine-optimization-seo-lead-greenbell-communications-limited",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -357,38 +347,8 @@
         "jobTitle": "Director, Product Management",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/director-product-management-mastercard",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Fuel Logistics Product Manager",
-        "company": "koko networks ltd",
-        "company2": "KOKO Networks Ltd  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/fuel-logistics-product-manager-koko-networks-ltd",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "SAP ADMINISTRATOR",
-        "company": "Employer",
-        "company2": "A Large Employer in the Manufacturing Industry   ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/sap-administrator-employer",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "GIS Analyst",
-        "company": "koko networks ltd",
-        "company2": "KOKO Networks Ltd  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/gis-analyst-koko-networks-ltd",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -397,8 +357,18 @@
         "company": "access afya",
         "company2": "ACCESS AFYA  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/technical-support-officer-access-afya",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "GIS Analyst",
+        "company": "koko networks ltd",
+        "company2": "KOKO Networks Ltd  ",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/gis-analyst-koko-networks-ltd",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -407,7 +377,7 @@
         "company": "incentro africa",
         "company2": "Incentro Africa   ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/google-specialist-incentro-africa",
         "category": "IT & Software",
         "jobLikes": 0
@@ -417,8 +387,18 @@
         "company": "incentro africa",
         "company2": "Incentro Africa   ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/ios-developer-swift-ict-sector-incentro-africa",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Data Engineer",
+        "company": "i m bank limited",
+        "company2": "I&M Bank Limited  ",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/data-engineer-i-m-bank-limited",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -427,7 +407,7 @@
         "company": "simba technology",
         "company2": "Simba Technology   ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/network-system-administrator-simba-technology",
         "category": "IT & Software",
         "jobLikes": 0
@@ -437,7 +417,7 @@
         "company": "optica limited",
         "company2": "Optica Limited  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/it-assistant-support-optica-limited",
         "category": "IT & Software",
         "jobLikes": 0
@@ -447,18 +427,8 @@
         "company": "kava",
         "company2": "KAVA AFRICA  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/junior-developer-kava",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Product Manager (Ad Tech)",
-        "company": "koko networks ltd",
-        "company2": "KOKO Networks Ltd  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/product-manager-ad-tech-koko-networks-ltd",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -467,8 +437,18 @@
         "company": "zalego institute of technology and innovation",
         "company2": "Zalego Institute of Technology and Innovation  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/android-and-java-developer-tutor-zalego-institute-of-technology-and-innovation-5b94b54a",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Product Manager (Ad Tech)",
+        "company": "koko networks ltd",
+        "company2": "KOKO Networks Ltd  ",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/product-manager-ad-tech-koko-networks-ltd",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -477,165 +457,8 @@
         "company": "optica limited",
         "company2": "Optica Limited  ",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/sap-b1-coordinator-optica-limited",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Regional Technology Field Support Officer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/regional-technology-field-support-officer-living-goods-kenya-de98ab76",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "ICT Manager",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/ict-manager-tourism-fund",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Systems Internship",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/systems-internship-one-acre-fund",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Senior Software Engineering",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/senior-software-engineering-sendy-ltd-dfa13730",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Software Engineer - Python",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/software-engineer-python-arifu",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Internship- Information, Communication Technology",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/internship-information-communication-technology-ministry-of-water-and-irrigation",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Senior Software Engineer Android/Java",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/senior-software-engineer-android-java-ona-kenya-ltd-fd353fd7",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Software Development Manager",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/software-development-manager-jumo-ad061011",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Data Engineer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/data-engineer-jumo-b769556f",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Web Developer",
-        "company": "jubilee insurance ke",
-        "company2": "Jubilee Insurance KE  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/web-developer-jubilee-insurance-ke",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Business Intelligence Developer",
-        "company": "equity bank kenya",
-        "company2": "Equity Bank Kenya   ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/business-intelligence-developer-equity-bank-kenya",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "IT (Oracle) Manager",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/it-oracle-manager-eagle-hr-consultants",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Django/React Native/Full-stack Senior Developer",
-        "company": "pawame",
-        "company2": "Pawame  ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/django-react-native-full-stack-senior-developer-pawame",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Quality Assurance Engineer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/quality-assurance-engineer-living-goods-kenya",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Software Engineer Intern",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/software-engineer-intern-ona-kenya-ltd-75469158",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "ERP Developer / Analyst",
-        "company": "equity bank kenya",
-        "company2": "Equity Bank Kenya   ",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/erp-developer-analyst-equity-bank-kenya",
-        "category": "IT & Software",
-        "jobLikes": 0
-    },
-    {
-        "jobTitle": "Senior Software Engineer",
-        "company": "Undisclosed",
-        "source": "Fuzu",
-        "date": "2018-9-14",
-        "url": "https://www.fuzu.com/jobs/senior-software-engineer-ona-kenya-ltd-3090349c",
         "category": "IT & Software",
         "jobLikes": 0
     },
@@ -643,8 +466,36 @@
         "jobTitle": "Mobile Channel Support, Digital Financial Services",
         "company": "Undisclosed",
         "source": "Fuzu",
-        "date": "2018-9-14",
+        "date": "2018-9-19",
         "url": "https://www.fuzu.com/jobs/mobile-channel-support-digital-financial-services-kcb-group",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Graphical Designer User Interface",
+        "company": "summit recruitment training",
+        "company2": "Summit Recruitment &Training  ",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/graphical-designer-user-interface-summit-recruitment-training-fd72059a",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Manager, Risk Assessments",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/manager-risk-assessments-kcb-group",
+        "category": "IT & Software",
+        "jobLikes": 0
+    },
+    {
+        "jobTitle": "Mobile App Manager",
+        "company": "Undisclosed",
+        "source": "Fuzu",
+        "date": "2018-9-19",
+        "url": "https://www.fuzu.com/jobs/mobile-app-manager-brites-management-services-limited",
         "category": "IT & Software",
         "jobLikes": 0
     }

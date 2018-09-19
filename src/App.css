@@ -164,7 +164,18 @@ header h1 {
 .activeForm {
   display: block !important;
 }
-
+.btn  {
+  color: #fff;
+  font-size: 1em;
+  background: #273a4b;
+  font-weight: 700;
+}
+.btn--cancel {
+  background: #ff0000;
+}
+.btn:hover {
+  color: #e4e4e4;
+}
 
 footer {
   position: relative;

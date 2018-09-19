@@ -49,7 +49,7 @@ class Emailer extends Component {
 		//Get job description
 		let jd = [];
 		let jobDesc = "";
-
+		jobDesc = "iHub inMail job descriptions are not available yet. Please follow the link below to view the full JD."
 		if (url.includes("ihub")) {
 			// console.log(url + " is a Ihub Link");
 			await axios.get(url)
@@ -68,13 +68,41 @@ class Emailer extends Component {
 		    }, (error) => console.log(error));
 		} else if (url.includes("fuzu")) {
 			// console.log(url + " is a Fuzu Link");
-			jobDesc = "Fuzu job descriptions are not available yet. Please follow the link below to view the full JD."
+			jobDesc = "Fuzu inMail job descriptions are not available yet. Please follow the link below to view the full JD."
+			await axios.get(url)
+		    .then((response) => {
+		        if (response.status === 200) {
+		            const html = response.data;
+		            const $ = cheerio.load(html);
+		            
+		            $('.p-2').each(function(i, elem) {
+		                jd[i] = {
+		                    description: $(this).find('p').text() + $(this).find('li').text()
+		                }
+		            });
+		            jobDesc = jd[0]["description"];
+		        }
+		    }, (error) => console.log(error));
 		} else if (url.includes("linkedin")) {
 			// console.log(url + " is a LinkedIn Link");
-			jobDesc = "LinkedIn job descriptions are not available yet. Please follow the link below to view the full JD."
+			jobDesc = "LinkedIn inMail job descriptions are not available yet. Please follow the link below to view the full JD."
+			await axios.get(url)
+		    .then((response) => {
+		        if (response.status === 200) {
+		            const html = response.data;
+		            const $ = cheerio.load(html);
+		            
+		            $('#job-details').each(function(i, elem) {
+		                jd[i] = {
+		                    description: $(this).find('span').text()
+		                }
+		            });
+		            jobDesc = jd[0]["description"];
+		        }
+		    }, (error) => console.log(error));
 		} else  {
 			// console.log(url + " is a unknown Link");
-			jobDesc = "This recruiter's job descriptions are not available yet. Please follow the link below to view the full JD."
+			jobDesc = "This recruiter's inMail job descriptions are not available yet. Please follow the link below to view the full JD."
 		}
 
 		
@@ -90,7 +118,7 @@ class Emailer extends Component {
 	  	
 	  	const jd = await Promise.all([this.getJD(jobLink)]);
 	  	const jobDetails = jd[0];
-	  	//console.log(jobDetails);
+	  	console.log(jobDetails);
 
 	  	const user_id = process.env.REACT_APP_EMAILJS_USERID;
 
@@ -126,9 +154,9 @@ class Emailer extends Component {
 			<form id={formId} ref={formId} onSubmit={this.handleSubmit} className="email-form">			    
 			    <div className="form-group">
 				    <input type="email" ref="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Email address"  />
-				    <button type="submit" className="btn btn-primary">Submit</button>
+				    <button type="submit" className="btn btn-primary"><span className="lnr lnr-envelope"></span></button>
 				    <button id={this.props.id} className="btn btn--cancel" onClick={this.handleCloseForm}>
-			          Cancel
+			          <span className="lnr lnr-cross-circle"></span>
 			        </button>
 			    </div>
 			</form>
